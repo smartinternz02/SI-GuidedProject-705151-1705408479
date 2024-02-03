@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Cura_TestSuiteLogin_001" time="34.374" tests="1" failures="0" errors="0">
+   <testsuite name="Cura_TestSuiteLogin_001" tests="1" failures="0" errors="0" time="34.374" skipped="0" timestamp="02-02-2024T22:51:41" hostname="ANTHONY DASS - DESKTOP-TGAH3CK" id="Test Suites/CURA_TestSuites/Cura_TestSuiteLogin_001">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\ANTHONY DASS\\git\\SI-GuidedProject-705151-1705408479\\Project\\Reports\\20240202_225134\\CURA_TestSuites\\Cura_TestSuiteLogin_001\\20240202_225134"/>
+         <property name="logFiles" value="C:\\Users\\ANTHONY DASS\\git\\SI-GuidedProject-705151-1705408479\\Project\\Reports\\20240202_225134\\CURA_TestSuites\\Cura_TestSuiteLogin_001\\20240202_225134\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="ANTHONY DASS - DESKTOP-TGAH3CK"/>
+         <property name="os" value="Windows 11 64bit"/>
+         <property name="katalonVersion" value="9.2.0.212"/>
+         <property name="browser" value="Chrome 121.0.0.0"/>
+         <property name="hostAddress" value="192.168.1.5"/>
+         <property name="sessionId" value="47e47e007206a5fff27f3373cdef351d"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 11"/>
+      </properties>
+      <testcase name="Test Cases/Login/TC_CURA_Login_001" time="18.864" classname="Test Cases/Login/TC_CURA_Login_001" status="PASSED">
+         <system-out><![CDATA[02-02-2024T22:51:57 - [TEST_CASE][PASSED] - Test Cases/Login/TC_CURA_Login_001: Test Cases/Login/TC_CURA_Login_001
+
+02-02-2024T22:51:57 - [TEST_STEP][PASSED] - Start listener action : beforeTestCase: null
+
+02-02-2024T22:51:57 - [TEST_STEP][PASSED] - Start setup action : setupTestCase: Method 'setupTestCase' complete successfully
+
+02-02-2024T22:51:57 - [MESSAGE][PASSED] - Method 'setupTestCase' complete successfully
+
+02-02-2024T22:51:57 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+02-02-2024T22:51:57 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+02-02-2024T22:51:58 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+02-02-2024T22:51:58 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+02-02-2024T22:52:00 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+02-02-2024T22:52:00 - [TEST_STEP][PASSED] - navigateToUrl("https://katalon-demo-cura.herokuapp.com/"): Navigate to 'https://katalon-demo-cura.herokuapp.com/' successfully
+
+02-02-2024T22:52:08 - [MESSAGE][PASSED] - Navigate to 'https://katalon-demo-cura.herokuapp.com/' successfully
+
+02-02-2024T22:52:08 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Cura Pages/CuraPage_Login_OR/Page_CURA Healthcare Service/i_fa fa-bars")): Object: 'Object Repository/Cura Pages/CuraPage_Login_OR/Page_CURA Healthcare Service/i_fa fa-bars' is clicked on
+
+02-02-2024T22:52:09 - [MESSAGE][PASSED] - Object: 'Object Repository/Cura Pages/CuraPage_Login_OR/Page_CURA Healthcare Service/i_fa fa-bars' is clicked on
+
+02-02-2024T22:52:09 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Cura Pages/CuraPage_Login_OR/Page_CURA Healthcare Service/a_Login")): Object: 'Object Repository/Cura Pages/CuraPage_Login_OR/Page_CURA Healthcare Service/a_Login' is clicked on
+
+02-02-2024T22:52:11 - [MESSAGE][PASSED] - Object: 'Object Repository/Cura Pages/CuraPage_Login_OR/Page_CURA Healthcare Service/a_Login' is clicked on
+
+02-02-2024T22:52:11 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Cura Pages/CuraPage_Login_OR/Page_CURA Healthcare Service/input_username"), Username): Text '' is set on object 'Object Repository/Cura Pages/CuraPage_Login_OR/Page_CURA Healthcare Service/input_username'
+
+02-02-2024T22:52:13 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/Cura Pages/CuraPage_Login_OR/Page_CURA Healthcare Service/input_username'
+
+02-02-2024T22:52:13 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Cura Pages/CuraPage_Login_OR/Page_CURA Healthcare Service/input_password"), Password): Text '' is set on object 'Object Repository/Cura Pages/CuraPage_Login_OR/Page_CURA Healthcare Service/input_password'
+
+02-02-2024T22:52:13 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/Cura Pages/CuraPage_Login_OR/Page_CURA Healthcare Service/input_password'
+
+02-02-2024T22:52:13 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Cura Pages/CuraPage_Login_OR/Page_CURA Healthcare Service/button_Login")): Object: 'Object Repository/Cura Pages/CuraPage_Login_OR/Page_CURA Healthcare Service/button_Login' is clicked on
+
+02-02-2024T22:52:15 - [MESSAGE][PASSED] - Object: 'Object Repository/Cura Pages/CuraPage_Login_OR/Page_CURA Healthcare Service/button_Login' is clicked on
+
+02-02-2024T22:52:15 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+02-02-2024T22:52:16 - [MESSAGE][PASSED] - Browser is closed
+
+02-02-2024T22:52:16 - [TEST_STEP][PASSED] - Start tear down : tearDownTestCase: Method 'tearDownTestCase' complete successfully
+
+02-02-2024T22:52:16 - [MESSAGE][PASSED] - Method 'tearDownTestCase' complete successfully
+
+02-02-2024T22:52:16 - [TEST_STEP][PASSED] - Start listener action : afterTestCase: null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[02-02-2024T22:51:41 - [TEST_SUITE][PASSED] - Cura_TestSuiteLogin_001: Test Cases/Login/TC_CURA_Login_001]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

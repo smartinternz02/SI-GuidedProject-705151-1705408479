@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>i_fa fa-bars</name>
+   <tag></tag>
+   <elementGuidId>d6af673b-a89d-44dc-aaf9-9374df563f89</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//a[@id='menu-toggle']/i</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>i.fa.fa-bars</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>i</value>
+      <webElementGuid>6d909c03-7b8c-411d-98dc-71621884660c</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>fa fa-bars</value>
+      <webElementGuid>68e49539-11f1-43b6-9163-7583e122f207</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;menu-toggle&quot;)/i[@class=&quot;fa fa-bars&quot;]</value>
+      <webElementGuid>3455d117-06fa-4ed5-b7dc-39ee12145dd5</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//a[@id='menu-toggle']/i</value>
+      <webElementGuid>db43deea-b6c3-4c9f-bba1-1d27e712f7d6</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//i</value>
+      <webElementGuid>f68b5a29-80e2-49af-a742-dfb9538367b7</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

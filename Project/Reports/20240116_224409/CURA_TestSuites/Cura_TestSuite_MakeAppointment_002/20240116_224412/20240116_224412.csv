@@ -1,0 +1,20 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Cura_TestSuite_MakeAppointment_002,Firefox 95.0,,,16-01-2024 22:44:23,16-01-2024 22:45:35,1m - 12.380s,PASSED
+,,,,,,,
+Test Cases/MakeAppointment/TC_CURA MakeAppointmentvalidation 002,Firefox 95.0,,,16-01-2024 22:45:09,16-01-2024 22:45:35,25.814s,PASSED
+Start listener action : beforeTestCase,Firefox 95.0,,,16-01-2024 22:45:09,16-01-2024 22:45:09,0.001s,PASSED
+Start setup action : setupTestCase,Firefox 95.0,,,16-01-2024 22:45:09,16-01-2024 22:45:09,0.001s,PASSED
+"openBrowser("""")",Firefox 95.0,,,16-01-2024 22:45:09,16-01-2024 22:45:17,8.148s,PASSED
+"navigateToUrl(""https://katalon-demo-cura.herokuapp.com/"")",Firefox 95.0,,,16-01-2024 22:45:17,16-01-2024 22:45:21,3.946s,PASSED
+"click(findTestObject(""Object Repository/Cura Pages/CuraPage MakeAppointmentValidation OR/Page_CURA Healthcare Service/a_Make Appointment""))",Firefox 95.0,,,16-01-2024 22:45:21,16-01-2024 22:45:24,2.289s,PASSED
+"setText(findTestObject(""Object Repository/Cura Pages/CuraPage MakeAppointmentValidation OR/Page_CURA Healthcare Service/input_username""), ""John Doe"")",Firefox 95.0,,,16-01-2024 22:45:24,16-01-2024 22:45:25,1.419s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Cura Pages/CuraPage MakeAppointmentValidation OR/Page_CURA Healthcare Service/input_password""), ""g3/DOGG74jC3Flrr3yH+3D/yKbOqqUNM"")",Firefox 95.0,,,16-01-2024 22:45:25,16-01-2024 22:45:27,1.518s,PASSED
+"click(findTestObject(""Object Repository/Cura Pages/CuraPage MakeAppointmentValidation OR/Page_CURA Healthcare Service/button_Login""))",Firefox 95.0,,,16-01-2024 22:45:27,16-01-2024 22:45:28,1.870s,PASSED
+"verifyElementPresent(findTestObject(""Dropdown/select_Tokyo CURA Healthcare Center                            Hongkong CURA Healthcare Center                            Seoul CURA Healthcare Center""), 10)",Firefox 95.0,,,16-01-2024 22:45:28,16-01-2024 22:45:29,0.492s,PASSED
+delay(2),Firefox 95.0,,,16-01-2024 22:45:29,16-01-2024 22:45:31,2.032s,PASSED
+"verifyElementPresent(findTestObject(""radiobutton/input_Medicaid_programs""), 10)",Firefox 95.0,,,16-01-2024 22:45:31,16-01-2024 22:45:32,0.558s,PASSED
+"isRadioButtonNotChecked = verifyElementNotChecked(findTestObject(""radiobutton/input_Medicaid_programs""), 10)",Firefox 95.0,,,16-01-2024 22:45:32,16-01-2024 22:45:32,0.689s,PASSED
+if (isRadioButtonNotChecked),Firefox 95.0,,,16-01-2024 22:45:32,16-01-2024 22:45:34,1.356s,PASSED
+closeBrowser(),Firefox 95.0,,,16-01-2024 22:45:34,16-01-2024 22:45:35,1.302s,PASSED
+Start tear down : tearDownTestCase,Firefox 95.0,,,16-01-2024 22:45:35,16-01-2024 22:45:35,0.001s,PASSED
+Start listener action : afterTestCase,Firefox 95.0,,,16-01-2024 22:45:35,16-01-2024 22:45:35,0.000s,PASSED

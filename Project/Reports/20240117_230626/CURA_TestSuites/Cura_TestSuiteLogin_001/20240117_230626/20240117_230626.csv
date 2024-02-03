@@ -1,0 +1,16 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Cura_TestSuiteLogin_001,MacOS - Chrome 119.0.0.0,,,17-01-2024 23:06:32,17-01-2024 23:08:47,2m - 14.705s,PASSED
+,,,,,,,
+Test Cases/Login/TC_CURA_Login_001,MacOS - Chrome 119.0.0.0,,,17-01-2024 23:07:52,17-01-2024 23:08:47,55.435s,PASSED
+Start listener action : beforeTestCase,MacOS - Chrome 119.0.0.0,,,17-01-2024 23:07:52,17-01-2024 23:07:52,0.001s,PASSED
+Start setup action : setupTestCase,MacOS - Chrome 119.0.0.0,,,17-01-2024 23:07:52,17-01-2024 23:07:52,0.002s,PASSED
+"openBrowser("""")",MacOS - Chrome 119.0.0.0,,,17-01-2024 23:07:52,17-01-2024 23:08:27,35.433s,PASSED
+"navigateToUrl(""https://katalon-demo-cura.herokuapp.com/"")",MacOS - Chrome 119.0.0.0,,,17-01-2024 23:08:27,17-01-2024 23:08:28,0.868s,PASSED
+"click(findTestObject(""Object Repository/Cura Pages/CuraPage_Login_OR/Page_CURA Healthcare Service/i_fa fa-bars""))",MacOS - Chrome 119.0.0.0,,,17-01-2024 23:08:28,17-01-2024 23:08:31,3.025s,PASSED
+"click(findTestObject(""Object Repository/Cura Pages/CuraPage_Login_OR/Page_CURA Healthcare Service/a_Login""))",MacOS - Chrome 119.0.0.0,,,17-01-2024 23:08:31,17-01-2024 23:08:34,2.786s,PASSED
+"setText(findTestObject(""Object Repository/Cura Pages/CuraPage_Login_OR/Page_CURA Healthcare Service/input_username""), ""John Doe"")",MacOS - Chrome 119.0.0.0,,,17-01-2024 23:08:34,17-01-2024 23:08:40,5.813s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Cura Pages/CuraPage_Login_OR/Page_CURA Healthcare Service/input_password""), ""g3/DOGG74jC3Flrr3yH+3D/yKbOqqUNM"")",MacOS - Chrome 119.0.0.0,,,17-01-2024 23:08:40,17-01-2024 23:08:43,3.445s,PASSED
+"click(findTestObject(""Object Repository/Cura Pages/CuraPage_Login_OR/Page_CURA Healthcare Service/button_Login""))",MacOS - Chrome 119.0.0.0,,,17-01-2024 23:08:43,17-01-2024 23:08:46,2.826s,PASSED
+closeBrowser(),MacOS - Chrome 119.0.0.0,,,17-01-2024 23:08:46,17-01-2024 23:08:47,1.121s,PASSED
+Start tear down : tearDownTestCase,MacOS - Chrome 119.0.0.0,,,17-01-2024 23:08:47,17-01-2024 23:08:47,0.001s,PASSED
+Start listener action : afterTestCase,MacOS - Chrome 119.0.0.0,,,17-01-2024 23:08:47,17-01-2024 23:08:47,0.000s,PASSED

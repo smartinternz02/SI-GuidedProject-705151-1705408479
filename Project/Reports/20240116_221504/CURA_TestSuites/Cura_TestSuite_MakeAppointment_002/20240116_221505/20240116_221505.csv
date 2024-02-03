@@ -1,0 +1,18 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Cura_TestSuite_MakeAppointment_002,Chrome 120.0.0.0,,,16-01-2024 22:15:10,16-01-2024 22:15:31,20.889s,PASSED
+,,,,,,,
+Test Cases/MakeAppointment/TC_CURA MakeAppointmentvalidation 002,Chrome 120.0.0.0,,,16-01-2024 22:15:14,16-01-2024 22:15:31,17.607s,PASSED
+Start setup action : setupTestCase,Chrome 120.0.0.0,,,16-01-2024 22:15:14,16-01-2024 22:15:14,0.001s,PASSED
+"openBrowser("""")",Chrome 120.0.0.0,,,16-01-2024 22:15:14,16-01-2024 22:15:16,1.990s,PASSED
+"navigateToUrl(""https://katalon-demo-cura.herokuapp.com/"")",Chrome 120.0.0.0,,,16-01-2024 22:15:16,16-01-2024 22:15:21,5.304s,PASSED
+"click(findTestObject(""Object Repository/Cura Pages/CuraPage MakeAppointmentValidation OR/Page_CURA Healthcare Service/a_Make Appointment""))",Chrome 120.0.0.0,,,16-01-2024 22:15:21,16-01-2024 22:15:22,0.919s,PASSED
+"setText(findTestObject(""Object Repository/Cura Pages/CuraPage MakeAppointmentValidation OR/Page_CURA Healthcare Service/input_username""), ""John Doe"")",Chrome 120.0.0.0,,,16-01-2024 22:15:22,16-01-2024 22:15:23,1.160s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Cura Pages/CuraPage MakeAppointmentValidation OR/Page_CURA Healthcare Service/input_password""), ""g3/DOGG74jC3Flrr3yH+3D/yKbOqqUNM"")",Chrome 120.0.0.0,,,16-01-2024 22:15:23,16-01-2024 22:15:24,0.553s,PASSED
+"click(findTestObject(""Object Repository/Cura Pages/CuraPage MakeAppointmentValidation OR/Page_CURA Healthcare Service/button_Login""))",Chrome 120.0.0.0,,,16-01-2024 22:15:24,16-01-2024 22:15:25,0.997s,PASSED
+"verifyElementPresent(findTestObject(""Dropdown/select_Tokyo CURA Healthcare Center                            Hongkong CURA Healthcare Center                            Seoul CURA Healthcare Center""), 10)",Chrome 120.0.0.0,,,16-01-2024 22:15:25,16-01-2024 22:15:25,0.497s,PASSED
+delay(2),Chrome 120.0.0.0,,,16-01-2024 22:15:25,16-01-2024 22:15:27,2.035s,PASSED
+"verifyElementPresent(findTestObject(""radiobutton/input_Medicaid_programs""), 10)",Chrome 120.0.0.0,,,16-01-2024 22:15:27,16-01-2024 22:15:28,0.325s,PASSED
+"isRadioButtonNotChecked = verifyElementNotChecked(findTestObject(""radiobutton/input_Medicaid_programs""), 10)",Chrome 120.0.0.0,,,16-01-2024 22:15:28,16-01-2024 22:15:28,0.316s,PASSED
+if (isRadioButtonNotChecked),Chrome 120.0.0.0,,,16-01-2024 22:15:28,16-01-2024 22:15:29,1.109s,PASSED
+closeBrowser(),Chrome 120.0.0.0,,,16-01-2024 22:15:29,16-01-2024 22:15:31,2.235s,PASSED
+Start tear down : tearDownTestCase,Chrome 120.0.0.0,,,16-01-2024 22:15:31,16-01-2024 22:15:31,0.001s,PASSED

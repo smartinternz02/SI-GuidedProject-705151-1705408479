@@ -1,0 +1,16 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Cura_TestSuiteLogin_001,Chrome 121.0.0.0,,,03-02-2024 01:05:02,03-02-2024 01:06:13,1m - 11.098s,PASSED
+,,,,,,,
+Test Cases/Login/TC_CURA_Login_001,Chrome 121.0.0.0,,,03-02-2024 01:05:51,03-02-2024 01:06:13,22.487s,PASSED
+Start listener action : beforeTestCase,Chrome 121.0.0.0,,,03-02-2024 01:05:51,03-02-2024 01:05:51,0.000s,PASSED
+Start setup action : setupTestCase,Chrome 121.0.0.0,,,03-02-2024 01:05:51,03-02-2024 01:05:51,0.010s,PASSED
+"openBrowser("""")",Chrome 121.0.0.0,,,03-02-2024 01:05:51,03-02-2024 01:05:55,3.815s,PASSED
+"navigateToUrl(""https://katalon-demo-cura.herokuapp.com/"")",Chrome 121.0.0.0,,,03-02-2024 01:05:55,03-02-2024 01:06:05,10.653s,PASSED
+"click(findTestObject(""Object Repository/Cura Pages/CuraPage_Login_OR/Page_CURA Healthcare Service/i_fa fa-bars""))",Chrome 121.0.0.0,,,03-02-2024 01:06:05,03-02-2024 01:06:08,2.443s,PASSED
+"click(findTestObject(""Object Repository/Cura Pages/CuraPage_Login_OR/Page_CURA Healthcare Service/a_Login""))",Chrome 121.0.0.0,,,03-02-2024 01:06:08,03-02-2024 01:06:09,0.949s,PASSED
+"setText(findTestObject(""Object Repository/Cura Pages/CuraPage_Login_OR/Page_CURA Healthcare Service/input_username""), Username)",Chrome 121.0.0.0,,,03-02-2024 01:06:09,03-02-2024 01:06:10,1.320s,PASSED
+"setText(findTestObject(""Object Repository/Cura Pages/CuraPage_Login_OR/Page_CURA Healthcare Service/input_password""), Password)",Chrome 121.0.0.0,,,03-02-2024 01:06:10,03-02-2024 01:06:11,0.884s,PASSED
+"click(findTestObject(""Object Repository/Cura Pages/CuraPage_Login_OR/Page_CURA Healthcare Service/button_Login""))",Chrome 121.0.0.0,,,03-02-2024 01:06:11,03-02-2024 01:06:12,1.268s,PASSED
+closeBrowser(),Chrome 121.0.0.0,,,03-02-2024 01:06:12,03-02-2024 01:06:13,0.872s,PASSED
+Start tear down : tearDownTestCase,Chrome 121.0.0.0,,,03-02-2024 01:06:13,03-02-2024 01:06:13,0.000s,PASSED
+Start listener action : afterTestCase,Chrome 121.0.0.0,,,03-02-2024 01:06:13,03-02-2024 01:06:13,0.000s,PASSED

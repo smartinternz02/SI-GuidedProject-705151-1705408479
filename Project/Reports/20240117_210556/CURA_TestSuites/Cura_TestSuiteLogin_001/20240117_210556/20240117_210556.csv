@@ -1,0 +1,16 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Cura_TestSuiteLogin_001,Chrome 120.0.0.0,,,17-01-2024 21:06:13,17-01-2024 21:06:56,42.316s,PASSED
+,,,,,,,
+Test Cases/Login/TC_CURA_Login_001,Chrome 120.0.0.0,,,17-01-2024 21:06:39,17-01-2024 21:06:56,16.493s,PASSED
+Start listener action : beforeTestCase,Chrome 120.0.0.0,,,17-01-2024 21:06:39,17-01-2024 21:06:39,0.000s,PASSED
+Start setup action : setupTestCase,Chrome 120.0.0.0,,,17-01-2024 21:06:39,17-01-2024 21:06:39,0.001s,PASSED
+"openBrowser("""")",Chrome 120.0.0.0,,,17-01-2024 21:06:39,17-01-2024 21:06:42,2.396s,PASSED
+"navigateToUrl(""https://katalon-demo-cura.herokuapp.com/"")",Chrome 120.0.0.0,,,17-01-2024 21:06:42,17-01-2024 21:06:48,6.126s,PASSED
+"click(findTestObject(""Object Repository/Cura Pages/CuraPage_Login_OR/Page_CURA Healthcare Service/i_fa fa-bars""))",Chrome 120.0.0.0,,,17-01-2024 21:06:48,17-01-2024 21:06:49,1.113s,PASSED
+"click(findTestObject(""Object Repository/Cura Pages/CuraPage_Login_OR/Page_CURA Healthcare Service/a_Login""))",Chrome 120.0.0.0,,,17-01-2024 21:06:49,17-01-2024 21:06:50,1.225s,PASSED
+"setText(findTestObject(""Object Repository/Cura Pages/CuraPage_Login_OR/Page_CURA Healthcare Service/input_username""), ""John Doe"")",Chrome 120.0.0.0,,,17-01-2024 21:06:50,17-01-2024 21:06:51,1.257s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Cura Pages/CuraPage_Login_OR/Page_CURA Healthcare Service/input_password""), ""g3/DOGG74jC3Flrr3yH+3D/yKbOqqUNM"")",Chrome 120.0.0.0,,,17-01-2024 21:06:51,17-01-2024 21:06:53,1.824s,PASSED
+"click(findTestObject(""Object Repository/Cura Pages/CuraPage_Login_OR/Page_CURA Healthcare Service/button_Login""))",Chrome 120.0.0.0,,,17-01-2024 21:06:53,17-01-2024 21:06:54,1.273s,PASSED
+closeBrowser(),Chrome 120.0.0.0,,,17-01-2024 21:06:54,17-01-2024 21:06:56,1.145s,PASSED
+Start tear down : tearDownTestCase,Chrome 120.0.0.0,,,17-01-2024 21:06:56,17-01-2024 21:06:56,0.001s,PASSED
+Start listener action : afterTestCase,Chrome 120.0.0.0,,,17-01-2024 21:06:56,17-01-2024 21:06:56,0.000s,PASSED

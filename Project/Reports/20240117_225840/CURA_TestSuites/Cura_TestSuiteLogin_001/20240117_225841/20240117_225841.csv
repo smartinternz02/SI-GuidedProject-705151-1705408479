@@ -1,0 +1,16 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Cura_TestSuiteLogin_001,Firefox 95.0,,,17-01-2024 22:58:51,17-01-2024 23:01:30,2m - 39.223s,PASSED
+,,,,,,,
+Test Cases/Login/TC_CURA_Login_001,Firefox 95.0,,,17-01-2024 22:59:50,17-01-2024 23:01:30,1m - 39.805s,PASSED
+Start listener action : beforeTestCase,Firefox 95.0,,,17-01-2024 22:59:50,17-01-2024 22:59:50,0.001s,PASSED
+Start setup action : setupTestCase,Firefox 95.0,,,17-01-2024 22:59:50,17-01-2024 22:59:50,0.002s,PASSED
+"openBrowser("""")",Firefox 95.0,,,17-01-2024 22:59:50,17-01-2024 23:01:14,1m - 23.345s,PASSED
+"navigateToUrl(""https://katalon-demo-cura.herokuapp.com/"")",Firefox 95.0,,,17-01-2024 23:01:14,17-01-2024 23:01:19,5.175s,PASSED
+"click(findTestObject(""Object Repository/Cura Pages/CuraPage_Login_OR/Page_CURA Healthcare Service/i_fa fa-bars""))",Firefox 95.0,,,17-01-2024 23:01:19,17-01-2024 23:01:21,1.866s,PASSED
+"click(findTestObject(""Object Repository/Cura Pages/CuraPage_Login_OR/Page_CURA Healthcare Service/a_Login""))",Firefox 95.0,,,17-01-2024 23:01:21,17-01-2024 23:01:22,1.243s,PASSED
+"setText(findTestObject(""Object Repository/Cura Pages/CuraPage_Login_OR/Page_CURA Healthcare Service/input_username""), ""John Doe"")",Firefox 95.0,,,17-01-2024 23:01:22,17-01-2024 23:01:24,1.859s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Cura Pages/CuraPage_Login_OR/Page_CURA Healthcare Service/input_password""), ""g3/DOGG74jC3Flrr3yH+3D/yKbOqqUNM"")",Firefox 95.0,,,17-01-2024 23:01:24,17-01-2024 23:01:25,1.514s,PASSED
+"click(findTestObject(""Object Repository/Cura Pages/CuraPage_Login_OR/Page_CURA Healthcare Service/button_Login""))",Firefox 95.0,,,17-01-2024 23:01:25,17-01-2024 23:01:27,1.579s,PASSED
+closeBrowser(),Firefox 95.0,,,17-01-2024 23:01:27,17-01-2024 23:01:30,3.063s,PASSED
+Start tear down : tearDownTestCase,Firefox 95.0,,,17-01-2024 23:01:30,17-01-2024 23:01:30,0.000s,PASSED
+Start listener action : afterTestCase,Firefox 95.0,,,17-01-2024 23:01:30,17-01-2024 23:01:30,0.000s,PASSED

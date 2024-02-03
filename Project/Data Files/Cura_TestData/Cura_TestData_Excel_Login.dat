@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DataFileEntity>
+   <description></description>
+   <name>Cura_TestData_Excel_Login</name>
+   <tag></tag>
+   <connectionProperties/>
+   <containsHeaders>true</containsHeaders>
+   <csvSeperator></csvSeperator>
+   <dataFileGUID>954d66f7-5c81-49e3-8877-a9f6ce8036c5</dataFileGUID>
+   <dataSourceUrl>C:\Users\ANTHONY DASS\git\SI-GuidedProject-705151-1705408479\Project\Data Files\testdata.xlsx</dataSourceUrl>
+   <driver>ExcelFile</driver>
+   <isInternalPath>false</isInternalPath>
+   <query></query>
+   <secureUserAccount>false</secureUserAccount>
+   <sheetName>Sheet1</sheetName>
+   <usingGlobalDBSetting>false</usingGlobalDBSetting>
+</DataFileEntity>

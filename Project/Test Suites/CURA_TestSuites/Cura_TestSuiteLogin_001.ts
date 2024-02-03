@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestSuiteEntity>
+   <description></description>
+   <name>Cura_TestSuiteLogin_001</name>
+   <tag></tag>
+   <isRerun>false</isRerun>
+   <mailRecipient>samsylvester.26it@licet.ac.in;samsylvester1206@gmail.com;</mailRecipient>
+   <numberOfRerun>1</numberOfRerun>
+   <pageLoadTimeout>30</pageLoadTimeout>
+   <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
+   <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
+   <rerunImmediately>true</rerunImmediately>
+   <testSuiteGuid>c72a0eab-905c-4fad-8e54-595c79add769</testSuiteGuid>
+   <testCaseLink>
+      <guid>f5d30370-a801-44a8-8e50-443bc0682c13</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Login/TC_CURA_Login_001</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>6e8b1eca-1351-4202-aefb-e1cd0039560b</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>75c565f8-19e6-40bc-83e4-22bbc1b30891</variableId>
+      </variableLink>
+   </testCaseLink>
+</TestSuiteEntity>

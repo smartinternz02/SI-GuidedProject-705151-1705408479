@@ -1,0 +1,16 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Cura_TestSuite_MakeAppointment_002,Chrome 120.0.0.0,,,16-01-2024 22:10:55,16-01-2024 22:11:24,28.794s,PASSED
+,,,,,,,
+Test Cases/MakeAppointment/TC_CURA MakeAppointmentvalidation 002,Chrome 120.0.0.0,,,16-01-2024 22:10:56,16-01-2024 22:11:24,28.634s,PASSED
+"openBrowser("""")",Chrome 120.0.0.0,,,16-01-2024 22:10:56,16-01-2024 22:11:12,15.757s,PASSED
+"navigateToUrl(""https://katalon-demo-cura.herokuapp.com/"")",Chrome 120.0.0.0,,,16-01-2024 22:11:12,16-01-2024 22:11:14,2.470s,PASSED
+"click(findTestObject(""Object Repository/Cura Pages/CuraPage MakeAppointmentValidation OR/Page_CURA Healthcare Service/a_Make Appointment""))",Chrome 120.0.0.0,,,16-01-2024 22:11:14,16-01-2024 22:11:15,0.938s,PASSED
+"setText(findTestObject(""Object Repository/Cura Pages/CuraPage MakeAppointmentValidation OR/Page_CURA Healthcare Service/input_username""), ""John Doe"")",Chrome 120.0.0.0,,,16-01-2024 22:11:15,16-01-2024 22:11:16,1.371s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Cura Pages/CuraPage MakeAppointmentValidation OR/Page_CURA Healthcare Service/input_password""), ""g3/DOGG74jC3Flrr3yH+3D/yKbOqqUNM"")",Chrome 120.0.0.0,,,16-01-2024 22:11:16,16-01-2024 22:11:17,0.820s,PASSED
+"click(findTestObject(""Object Repository/Cura Pages/CuraPage MakeAppointmentValidation OR/Page_CURA Healthcare Service/button_Login""))",Chrome 120.0.0.0,,,16-01-2024 22:11:17,16-01-2024 22:11:19,2.177s,PASSED
+"verifyElementPresent(findTestObject(""Dropdown/select_Tokyo CURA Healthcare Center                            Hongkong CURA Healthcare Center                            Seoul CURA Healthcare Center""), 10)",Chrome 120.0.0.0,,,16-01-2024 22:11:19,16-01-2024 22:11:20,0.503s,PASSED
+delay(2),Chrome 120.0.0.0,,,16-01-2024 22:11:20,16-01-2024 22:11:22,2.026s,PASSED
+"verifyElementPresent(findTestObject(""radiobutton/input_Medicaid_programs""), 10)",Chrome 120.0.0.0,,,16-01-2024 22:11:22,16-01-2024 22:11:22,0.297s,PASSED
+"isRadioButtonNotChecked = verifyElementNotChecked(findTestObject(""radiobutton/input_Medicaid_programs""), 10)",Chrome 120.0.0.0,,,16-01-2024 22:11:22,16-01-2024 22:11:23,0.400s,PASSED
+if (isRadioButtonNotChecked),Chrome 120.0.0.0,,,16-01-2024 22:11:23,16-01-2024 22:11:24,1.099s,PASSED
+closeBrowser(),Chrome 120.0.0.0,,,16-01-2024 22:11:24,16-01-2024 22:11:24,0.439s,PASSED

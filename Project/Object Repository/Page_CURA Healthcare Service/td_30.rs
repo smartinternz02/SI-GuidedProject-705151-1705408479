@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>td_30</name>
+   <tag></tag>
+   <elementGuidId>d3bc7a72-2301-4637-bbb9-df6715113a86</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//tr[5]/td[3]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>td</value>
+      <webElementGuid>4d33fe05-3c5e-44da-92bd-def8c1124808</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>day</value>
+      <webElementGuid>79ddfa3c-fd68-49bc-87be-744eea575d11</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>30</value>
+      <webElementGuid>0346bf6f-70d7-4ca4-9fba-d68ad2afec07</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[1]/body[1]/div[@class=&quot;datepicker datepicker-dropdown dropdown-menu datepicker-orient-left datepicker-orient-top&quot;]/div[@class=&quot;datepicker-days&quot;]/table[@class=&quot;table-condensed&quot;]/tbody[1]/tr[5]/td[@class=&quot;day&quot;]</value>
+      <webElementGuid>c1f6e183-b23e-4824-9d98-01ba602fa6c0</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//tr[5]/td[3]</value>
+      <webElementGuid>c3f6aade-bb06-4b62-97d5-8134635bf548</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//td[(text() = '30' or . = '30')]</value>
+      <webElementGuid>f928f836-6cd5-4635-bfe7-45305bf701c1</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

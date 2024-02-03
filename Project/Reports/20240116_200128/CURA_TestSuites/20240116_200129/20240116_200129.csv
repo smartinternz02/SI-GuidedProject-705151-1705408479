@@ -1,0 +1,8 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+CURA_TestSuites,,,,16-01-2024 20:01:35,16-01-2024 20:01:37,1.847s,FAILED
+,,,,,,,
+Test Cases/Login/TC_CURA_Login_001,,,,16-01-2024 20:01:35,16-01-2024 20:01:37,1.589s,FAILED
+"openBrowser("""")",,,,16-01-2024 20:01:35,16-01-2024 20:01:37,1.391s,FAILED
+,,,,,,,
+Test Cases/MakeAppointment/TC_CURA MakeAppointmentvalidation 002,,,,16-01-2024 20:01:37,16-01-2024 20:01:37,0.112s,FAILED
+"openBrowser("""")",,,,16-01-2024 20:01:37,16-01-2024 20:01:37,0.044s,FAILED

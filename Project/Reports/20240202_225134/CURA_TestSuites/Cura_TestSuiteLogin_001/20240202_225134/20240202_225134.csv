@@ -1,0 +1,16 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Cura_TestSuiteLogin_001,Chrome 121.0.0.0,,,02-02-2024 22:51:41,02-02-2024 22:52:16,34.374s,PASSED
+,,,,,,,
+Test Cases/Login/TC_CURA_Login_001,Chrome 121.0.0.0,,,02-02-2024 22:51:57,02-02-2024 22:52:16,18.864s,PASSED
+Start listener action : beforeTestCase,Chrome 121.0.0.0,,,02-02-2024 22:51:57,02-02-2024 22:51:57,0.002s,PASSED
+Start setup action : setupTestCase,Chrome 121.0.0.0,,,02-02-2024 22:51:57,02-02-2024 22:51:57,0.002s,PASSED
+"openBrowser("""")",Chrome 121.0.0.0,,,02-02-2024 22:51:57,02-02-2024 22:52:00,3.034s,PASSED
+"navigateToUrl(""https://katalon-demo-cura.herokuapp.com/"")",Chrome 121.0.0.0,,,02-02-2024 22:52:00,02-02-2024 22:52:08,7.826s,PASSED
+"click(findTestObject(""Object Repository/Cura Pages/CuraPage_Login_OR/Page_CURA Healthcare Service/i_fa fa-bars""))",Chrome 121.0.0.0,,,02-02-2024 22:52:08,02-02-2024 22:52:09,1.270s,PASSED
+"click(findTestObject(""Object Repository/Cura Pages/CuraPage_Login_OR/Page_CURA Healthcare Service/a_Login""))",Chrome 121.0.0.0,,,02-02-2024 22:52:09,02-02-2024 22:52:11,1.430s,PASSED
+"setText(findTestObject(""Object Repository/Cura Pages/CuraPage_Login_OR/Page_CURA Healthcare Service/input_username""), Username)",Chrome 121.0.0.0,,,02-02-2024 22:52:11,02-02-2024 22:52:13,1.855s,PASSED
+"setText(findTestObject(""Object Repository/Cura Pages/CuraPage_Login_OR/Page_CURA Healthcare Service/input_password""), Password)",Chrome 121.0.0.0,,,02-02-2024 22:52:13,02-02-2024 22:52:13,0.843s,PASSED
+"click(findTestObject(""Object Repository/Cura Pages/CuraPage_Login_OR/Page_CURA Healthcare Service/button_Login""))",Chrome 121.0.0.0,,,02-02-2024 22:52:13,02-02-2024 22:52:15,1.656s,PASSED
+closeBrowser(),Chrome 121.0.0.0,,,02-02-2024 22:52:15,02-02-2024 22:52:16,0.668s,PASSED
+Start tear down : tearDownTestCase,Chrome 121.0.0.0,,,02-02-2024 22:52:16,02-02-2024 22:52:16,0.001s,PASSED
+Start listener action : afterTestCase,Chrome 121.0.0.0,,,02-02-2024 22:52:16,02-02-2024 22:52:16,0.001s,PASSED

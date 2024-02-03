@@ -1,0 +1,20 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Cura_TestSuite_MakeAppointment_002,Chrome 120.0.0.0,,,17-01-2024 16:49:05,17-01-2024 16:50:22,1m - 16.979s,PASSED
+,,,,,,,
+Test Cases/MakeAppointment/TC_CURA MakeAppointmentvalidation 002,Chrome 120.0.0.0,,,17-01-2024 16:49:35,17-01-2024 16:50:22,47.222s,PASSED
+Start listener action : beforeTestCase,Chrome 120.0.0.0,,,17-01-2024 16:49:36,17-01-2024 16:49:36,0.000s,PASSED
+Start setup action : setupTestCase,Chrome 120.0.0.0,,,17-01-2024 16:49:36,17-01-2024 16:49:36,0.001s,PASSED
+"openBrowser("""")",Chrome 120.0.0.0,,,17-01-2024 16:49:36,17-01-2024 16:49:41,5.146s,PASSED
+"navigateToUrl(""https://katalon-demo-cura.herokuapp.com/"")",Chrome 120.0.0.0,,,17-01-2024 16:49:41,17-01-2024 16:49:52,10.656s,PASSED
+"click(findTestObject(""Object Repository/Cura Pages/CuraPage MakeAppointmentValidation OR/Page_CURA Healthcare Service/a_Make Appointment""))",Chrome 120.0.0.0,,,17-01-2024 16:49:52,17-01-2024 16:49:54,2.358s,PASSED
+"setText(findTestObject(""Object Repository/Cura Pages/CuraPage MakeAppointmentValidation OR/Page_CURA Healthcare Service/input_username""), ""John Doe"")",Chrome 120.0.0.0,,,17-01-2024 16:49:54,17-01-2024 16:49:55,1.296s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Cura Pages/CuraPage MakeAppointmentValidation OR/Page_CURA Healthcare Service/input_password""), ""g3/DOGG74jC3Flrr3yH+3D/yKbOqqUNM"")",Chrome 120.0.0.0,,,17-01-2024 16:49:55,17-01-2024 16:49:59,3.270s,PASSED
+"click(findTestObject(""Object Repository/Cura Pages/CuraPage MakeAppointmentValidation OR/Page_CURA Healthcare Service/button_Login""))",Chrome 120.0.0.0,,,17-01-2024 16:49:59,17-01-2024 16:50:00,1.610s,PASSED
+"verifyElementPresent(findTestObject(""Dropdown/select_Tokyo CURA Healthcare Center                            Hongkong CURA Healthcare Center                            Seoul CURA Healthcare Center""), 10)",Chrome 120.0.0.0,,,17-01-2024 16:50:00,17-01-2024 16:50:02,1.902s,PASSED
+delay(2),Chrome 120.0.0.0,,,17-01-2024 16:50:02,17-01-2024 16:50:04,2.030s,PASSED
+"verifyElementPresent(findTestObject(""radiobutton/input_Medicaid_programs""), 10)",Chrome 120.0.0.0,,,17-01-2024 16:50:04,17-01-2024 16:50:05,0.392s,PASSED
+"isRadioButtonNotChecked = verifyElementNotChecked(findTestObject(""radiobutton/input_Medicaid_programs""), 10)",Chrome 120.0.0.0,,,17-01-2024 16:50:05,17-01-2024 16:50:05,0.283s,PASSED
+if (isRadioButtonNotChecked),Chrome 120.0.0.0,,,17-01-2024 16:50:05,17-01-2024 16:50:06,1.155s,PASSED
+closeBrowser(),Chrome 120.0.0.0,,,17-01-2024 16:50:06,17-01-2024 16:50:22,16.331s,PASSED
+Start tear down : tearDownTestCase,Chrome 120.0.0.0,,,17-01-2024 16:50:22,17-01-2024 16:50:22,0.000s,PASSED
+Start listener action : afterTestCase,Chrome 120.0.0.0,,,17-01-2024 16:50:22,17-01-2024 16:50:22,0.000s,PASSED

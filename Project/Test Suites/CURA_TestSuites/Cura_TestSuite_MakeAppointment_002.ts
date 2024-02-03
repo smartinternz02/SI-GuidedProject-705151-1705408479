@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestSuiteEntity>
+   <description></description>
+   <name>Cura_TestSuite_MakeAppointment_002</name>
+   <tag></tag>
+   <isRerun>false</isRerun>
+   <mailRecipient></mailRecipient>
+   <numberOfRerun>0</numberOfRerun>
+   <pageLoadTimeout>30</pageLoadTimeout>
+   <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
+   <rerunFailedTestCasesOnly>true</rerunFailedTestCasesOnly>
+   <rerunImmediately>false</rerunImmediately>
+   <testSuiteGuid>689e3679-ca6a-4dd2-bdf3-5d32e0485fe1</testSuiteGuid>
+   <testCaseLink>
+      <guid>a3eee625-b0dc-47bc-aafe-2de520bc0aa6</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/MakeAppointment/TC_CURA MakeAppointmentvalidation 002</testCaseId>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>c891b73b-b74b-4428-8444-1267a373f359</id>
+         <iterationEntity>
+            <iterationType>ALL</iterationType>
+            <value></value>
+         </iterationEntity>
+         <testDataId>Data Files/Test Data</testDataId>
+      </testDataLink>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+      <variableLink>
+         <testDataLinkId>c891b73b-b74b-4428-8444-1267a373f359</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>Username</value>
+         <variableId>a0bdc0eb-aae7-4b84-a8bf-8cbf2da8987a</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>c891b73b-b74b-4428-8444-1267a373f359</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>Password</value>
+         <variableId>16aea809-5b36-4790-9217-020050967028</variableId>
+      </variableLink>
+   </testCaseLink>
+</TestSuiteEntity>

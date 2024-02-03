@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC_CURA MakeAppointmentvalidation 002</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>08b23f0d-df84-45c6-9ce4-64d89caec092</testCaseGuid>
+   <testDataLinks>
+      <combinationType>ONE</combinationType>
+      <id>bb9b4226-9ab7-469a-bf8a-3b94edb5dedb</id>
+      <iterationEntity>
+         <iterationType>ALL</iterationType>
+         <value></value>
+      </iterationEntity>
+      <testDataId>Data Files/Test Data</testDataId>
+   </testDataLinks>
+   <variableLinks>
+      <testDataLinkId>bb9b4226-9ab7-469a-bf8a-3b94edb5dedb</testDataLinkId>
+      <type>DATA_COLUMN</type>
+      <value>Username</value>
+      <variableId>a0bdc0eb-aae7-4b84-a8bf-8cbf2da8987a</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId>bb9b4226-9ab7-469a-bf8a-3b94edb5dedb</testDataLinkId>
+      <type>DATA_COLUMN</type>
+      <value>Password</value>
+      <variableId>16aea809-5b36-4790-9217-020050967028</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>a0bdc0eb-aae7-4b84-a8bf-8cbf2da8987a</id>
+      <masked>false</masked>
+      <name>Username</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>16aea809-5b36-4790-9217-020050967028</id>
+      <masked>false</masked>
+      <name>Password</name>
+   </variable>
+</TestCaseEntity>

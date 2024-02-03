@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>td_7</name>
+   <tag></tag>
+   <elementGuidId>2784baef-15e9-4e05-b6af-56322f91033e</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//tr[6]/td[4]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>td</value>
+      <webElementGuid>47363534-4238-44fb-84b0-4d311205e2e0</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>new day</value>
+      <webElementGuid>6d4202bf-ca60-485b-84fa-977660a3c9b4</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>7</value>
+      <webElementGuid>25a9d960-d8dd-41f0-b1f4-e727ce4b6072</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[1]/body[1]/div[@class=&quot;datepicker datepicker-dropdown dropdown-menu datepicker-orient-left datepicker-orient-top&quot;]/div[@class=&quot;datepicker-days&quot;]/table[@class=&quot;table-condensed&quot;]/tbody[1]/tr[6]/td[@class=&quot;new day&quot;]</value>
+      <webElementGuid>29133ddf-9d2c-46ed-890e-3a75eed2480d</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//tr[6]/td[4]</value>
+      <webElementGuid>6c808066-2c46-4aaf-b7d3-72e1cc0b50a9</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//td[(text() = '7' or . = '7')]</value>
+      <webElementGuid>dc2dcd74-f37e-4055-bda4-ba94feffe013</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>
