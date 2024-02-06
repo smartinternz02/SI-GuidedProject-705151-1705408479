@@ -20,3 +20,4 @@
 3. **Recording Video**
    - Video uploaded in mp4
    - https://drive.google.com/file/d/148qXNS0LLDN7vYolkXgl52Gfvfd-GT8p/view?usp=sharing
+   - https://drive.google.com/file/d/1x6qKXXO5HLh-1o9purJO7rQl1aSDHC-f/view?usp=sharing
