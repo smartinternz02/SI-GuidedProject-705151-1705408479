@@ -1,4 +1,4 @@
-#CURA HealthCare Service Software Automation Testing using Katalon<br>
+# CURA HealthCare Service Software Automation Testing using Katalon<br>
 1. **Documents**
    - Bussiness Requirements
    - Literature Review
